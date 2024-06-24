@@ -14,7 +14,7 @@
   </head>
   <body>
     <?php
-    require 'components/navbar.php';
+    require 'navbar.php';
     ?>
     <form action="./rsignin.php" class="needs-validation" method="post">
    
