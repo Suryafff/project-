@@ -1,5 +1,5 @@
 <?php
-require 'components/navbar.php';
+require 'navbar.php';
 
 if(!isset($_SESSION['username']))
 {
@@ -24,21 +24,21 @@ if(!isset($_SESSION['username']))
   </div>
   <div class='carousel-inner'>
     <div class='carousel-item active'>
-      <img src='images/burger' class='d-block w-100' alt='...'>
+      <img src='burger' class='d-block w-100' alt='...'>
       <div class='carousel-caption d-none d-md-block'>
         <h1>Wanna To Try Something new! and ever Testier</h1>
         <h4>Let`s Try EGYPTIAN burger and feel the Heaven on Earth.</h4>
       </div>
     </div>
     <div class='carousel-item'>
-      <img src='images/pizzahp.jpg' class='d-block w-100' alt='...'>
+      <img src='pizzahp.jpg' class='d-block w-100' alt='...'>
       <div class='carousel-caption d-none d-md-block'>
       <h1>Wanna To Try Something new! and ever Testier</h1>
       <h4>Let`s Try EGYPTIAN LA LINA pizza and feel the Heaven on Earth.</h4>
       </div>
     </div>
     <div class='carousel-item'>
-      <img src='images/momos' class='d-block w-100' alt='...'>
+      <img src='momos' class='d-block w-100' alt='...'>
       <div class='carousel-caption d-none d-md-block'>
       <h1>Wanna To Try Something new! and ever Testier</h1>
       <h4>Let`s Try JAPANESSE Momos and feel the Heaven on Earth.</h4>
@@ -61,7 +61,7 @@ if(!isset($_SESSION['username']))
   <div class='col-sm-6 mb-3 mb-sm-0'>
     <div class='card'>
       <div class='card-body'>
-        <img src='images/pizzahp.jpg' alt='' srcset=''>
+        <img src='pizzahp.jpg' alt='' srcset=''>
         <h5 class='card-title'>Special treat for anyone</h5>
         <p class='card-text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aspernatur ut doloribus aliquid, est harum?.</p>
         <a href='login.php' class='btn btn-primary'>buy now</a>
@@ -71,7 +71,7 @@ if(!isset($_SESSION['username']))
   <div class='col-sm-6'>
     <div class='card'>
       <div class='card-body'>
-      <img src='images/pizzahp.jpg' alt='' srcset=''>
+      <img src='pizzahp.jpg' alt='' srcset=''>
         <h5 class='card-title'>Special treat for anyone</h5>
         <p class='card-text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aspernatur ut doloribus aliquid, est harum?.</p>
         <a href='login.php' class='btn btn-primary'>buy now</a>
