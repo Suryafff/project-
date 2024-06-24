@@ -1,8 +1,8 @@
 <?php
 $res;
 session_start();
-require 'components/navbar.php';
-require'components/dbconnect.php';
+require 'navbar.php';
+require'dbconnect.php';
 if(!isset($_SESSION['username'])){
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
