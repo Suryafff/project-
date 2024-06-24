@@ -1,6 +1,6 @@
 
 <?php
-require 'components/navbar.php'
+require 'navbar.php'
 
 
 ?>
