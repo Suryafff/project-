@@ -1,5 +1,5 @@
 <?php 
-require 'components/dbconnect.php';
+require 'dbconnect.php';
 
 if(!isset($_SESSION['username']))
 {
